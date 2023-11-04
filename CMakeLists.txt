@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.27)
+project(myProject VERSION 1.0)
 
-project(Sdlk VERSION 1.0)
-configure_file(SdlkConfig.h.in SdlkConfig.h)
-add_library(${PROJECT_NAME} src/Sdlk.cpp)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(myProjectConfig.h.in myProjectConfig.h)
 
-include(CPack)
+add_subdirectory(src)
+add_subdirectory(tests)

@@ -3,7 +3,7 @@
 
     #include <string>
     
-    namespace Sdlk{
+    namespace MyProject{
         int add(int, int);
         int subtract(int, int);
     }
