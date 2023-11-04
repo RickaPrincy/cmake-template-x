@@ -1,0 +1,2 @@
+#define CTemplate_VERSION_MAJOR @CTemplate_VERSION_MAJOR@
+#define CTemplate_VERSION_MINOR @CTemplate_VERSION_MINOR@
