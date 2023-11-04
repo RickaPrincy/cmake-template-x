@@ -5,6 +5,6 @@
     
     namespace MyProject{
         int add(int, int);
-        int subtract(int, int);
+        int substract(int, int);
     }
 #endif

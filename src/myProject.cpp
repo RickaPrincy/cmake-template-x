@@ -4,6 +4,6 @@ int MyProject::add(int a, int b){
     return a + b;
 }
 
-int MyProject::subtract(int a, int b){
+int MyProject::substract(int a, int b){
     return a - b;
 }
