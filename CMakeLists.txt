@@ -9,3 +9,9 @@ add_subdirectory(src)
 add_subdirectory(tests)
 
 install(FILES "build/${PROJECT_NAME}Config.hpp" DESTINATION "include/${PROJECT_NAME}")
+
+include(InstallRequiredSystemLibraries)
+set(CPACK_PACKAGE_DIRECTORY "${CMAKE_SOURCE_DIR}/release")
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_SOURCE_DIR}/License.txt")
+set(CPACK_PACKAGE_VENDOR "RickaPrincy")
+include(CPack)
