@@ -1,2 +1,2 @@
 #! /bin/bash
-cmake -S . -B build
+cmake -DINSTALL_GTEST=OFF -S . -B build
