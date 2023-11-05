@@ -1,4 +1,3 @@
-#include <CTemplate/CTemplateConfig.hpp>
 #include <CTemplate/optionHandler.hpp>
 
 using namespace CTemplate;

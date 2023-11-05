@@ -4,6 +4,6 @@ file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.hpp *.h *.cpp)
 include_directories(${CMAKE_SOURCE_DIR}/external/TColor/include)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_executable(${BINARY} ${SOURCES})
+add_executable(ctemplate ${SOURCES})
 
-install(TARGETS ${BINARY} DESTINATION bin)
+install(TARGETS ctemplate DESTINATION bin)
