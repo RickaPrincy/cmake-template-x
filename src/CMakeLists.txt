@@ -7,11 +7,4 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 add_library(${BINARY} STATIC ${SOURCES})
 
-set_target_properties(${BINARY} PROPERTIES 
-    PUBLIC_HEADER ${HEADERS} 
-)
-
-install(TARGETS 
-    ${BINARY} DESTINATION lib
-    PUBLIC_HEADER DESTINATION "include/${BINARY}"
-)
+install(TARGETS ${BINARY} DESTINATION lib)
